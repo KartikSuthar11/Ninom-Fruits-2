@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.sec4 img{
+    width: 100%;
+    height: 300px;
+}
+nav{
+    bottom: 35px;
+}
+.i1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    opacity: 0;
+
+}
+.a1:hover .i1{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+.l2{
+    bottom: 34px;
+    width: 100%;
+    position: absolute;
+}
+.l1{
+    position: relative;
+}
+
+
